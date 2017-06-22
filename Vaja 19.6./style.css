@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  height: 200px;
+  background: pink;
+}
+
+.left-top,
+.right-top,
+.left-bottom,
+.right-bottom {
+  position: absolute;
+  background: white;
+}
+.left-top {
+  top: 0;
+  left: 0;
+}
+.right-top {
+  top: 0;
+  right: 0;
+}
+.left-bottom {
+  bottom: 0;
+  left: 0;
+}
+.right-bottom {
+  bottom: 0;
+  right: 0;
+}
